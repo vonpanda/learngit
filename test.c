@@ -127,9 +127,10 @@ int main()
 
     char wait_toip[16];
     int wait_port;
-    scanf("Please input the IP:%s",linking.link_ip);
-    scanf("Please input the port:%d",&linking.link_port);
-
+    printf("?~\n");
+    scanf("%s",linking.link_ip);
+    scanf("%d",&linking.link_port);
+    printf("!!\n");
     struct sockaddr_in to_server;
     bzero(&to_server,sizeof(to_server));
    
